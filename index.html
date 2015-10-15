@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>La Coroutine</title>
+
+		<meta name="description" content="Comment 60 personnes gèrent leur espace de travail, sans chef, depuis 5 ans ?">
+		<meta name="author" content="Cecile Veneziani">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link href="images/favicon.ico" rel="icon" type="image/ico" />
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+    <style>
+      .logo--no-border {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    </style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>La Coroutine</h1>
+          <h2>Comment 60 personnes gèrent leur espace de travail sans chef, depuis 5 ans ?</h2>
+				</section>
+
+        <section>
+          <h2>Cécile Veneziani</h2>
+          <a href="http://cecilitse.org/"><img src="images/cecile-veneziani.jpg" class="logo--no-border" width="20%" alt="Cecile Veneziani"></a>
+          <p>Développeur Ruby on Rails freelance</p>
+          <p>Prof au <a href="http://lewagon.org">Wagon</a> & coach</p>
+          <p>Coworkeuse Nomade</p>
+        </section>
+
+				<section>
+          <section>
+            <img src="images/logo_coroutine.jpg" class="logo--no-border" alt="Logo Coroutine" width="40%">
+            <h2>La Coroutine</h2>
+          </section>
+
+					<section>
+						<h2>Coworking</h2>
+            <ul>
+              <li>Espace partagé de travail... mais pas que</li>
+              <li>Auto-géré & Mutualisé</li>
+            </ul>
+            <img src="images/16747131768_511752c13d_o.jpg" alt="open space" width="40%">
+            <img src="images/14036700224_52e0335280_k.jpg" alt="" width="23%">
+          </section>
+
+          <section>
+            <h2>Origines (4 lieux)</h2>
+            <p>Du squat ...</p>
+            <img src="images/8578255762_4e2e1097b3_o.jpg" alt="les hauts lieux" width="47%">
+            <img src="images/5582254398_dd1452fae8_b.jpg" alt="rue lamartine" width="47%">
+          </section>
+
+          <section>
+            <h2>Origines (4 lieux)</h2>
+            <p>... au loft d'architecte</p>
+            <img src="images/7147724009_e29ca2a72f_o.jpg" alt="rue brule maison" width="47%">
+            <img src="images/8399104367_da99a4d81d_k.jpg" alt="rue molière" width="47%">
+          </section>
+
+          <section>
+            <h2>Membres</h2>
+            <p>
+              ~20 résidents /
+              ~30 passagers /
+              ~10 satellites
+            </p>
+
+            <img src="images/14395425109_2902d995f8_k.jpg" alt="Trombinoscope" width="30%">
+            <img src="images/14997621850_fa598f9791_b.jpg" alt="Julien" width="30%">
+            <img src="images/20600117256_c0f9b106c7_k.jpg" alt="Baptiste" width="30%">
+          </section>
+				</section>
+
+        <section>
+  				<section>
+            <img src="images/9448165205_d5a5d38a81_o.jpg" alt="Gestion du bar" width="70%">
+  					<h2>Organisation</h2>
+  				</section>
+
+          <section>
+            <h2>Sans chef</h2>
+            <ul>
+              <li>Gouvernance horizontale</li>
+              <li>Autonome : prises d'initiatives</li>
+              <li>Prise de décision collaborative (via Loomio)</li>
+            </ul>
+            <img src="images/22024352292_66d722c454_o.jpg" alt="Sacs La Coroutine" width="35%">
+            <img src="images/loomio-coroutine.jpg" alt="Loomio Coroutine" width="60%">
+          </section>
+
+          <section>
+            <h2>Mutualisation</h2>
+            <p>Cantine / Courses / Ménage / etc.</p>
+            <p>
+            <img src="images/14358806354_49249d3da0_k.jpg" alt="Repas partagé" width="30%">
+            <img src="images/14479686844_ffa9969eaa_k.jpg" alt="Cantine" width="30%">
+            <img src="images/16018632905_1fa3211c14_k.jpg" alt="Courses communes" width="30%">
+            <img src="images/20729386925_990fb31863_k.jpg" alt="Courses pour la cantine" width="30%">
+            <img src="images/20577434031_a77f21f586_k.jpg" alt="Ménage" width="30%">
+            </p>
+          </section>
+
+          <section>
+            <h2>Transformation de l'espace</h2>
+            <p>
+              Maraîcher / Ciné-Docu / Ping-Pong / ...
+            </p>
+            <img src="images/14482193334_5308005200_b.jpg" alt="Ciné Docu" width="40%">
+            <img src="images/9448166157_2065025113_b.jpg" alt="Ping pong" width="47%">
+          </section>
+
+          <section>
+            <h2>Transformation de l'espace</h2>
+            <p>... / Kids party / Théâtre / etc.</p>
+            <img src="images/15831228688_d7bfa743b6_b.jpg" alt="Kids party" width="45%">
+            <img src="images/20899252782_f71293e0dc_b.jpg" alt="Théâtre" width="45%">
+          </section>
+
+          <section>
+            <h2>Organique</h2>
+            <ul>
+              <li>Tel un organisme vivant</li>
+              <li>Chacun s'implique dans la gestion de l'espace</li>
+              <li>Ré-etalonnage permanent</li>
+              <li>Touche un public plus large</li>
+            </ul>
+          </section>
+        </section>
+
+				<section>
+          <section>
+            <img src="images/20380499539_d31005bf5c_k.jpg" alt="Citoyens" width="60%">
+            <h2>Démarche</h2>
+          </section>
+
+          <section>
+            <h2>Contribution</h2>
+            <p>Ouvert à toute forme de contribution</p>
+            <ul>
+              <li>Financière (côtisation / crowd-funding)</li>
+              <li>Participative</li>
+            </ul>
+            <img src="images/9448164643_fda33d50cb_o.jpg" alt="Participation libre - café" width="60%">
+          </section>
+          <section>
+            <h2>Citoyenneté</h2>
+            <p>
+              Coopérative / Maraîcher / BIO
+            </p>
+            <img src="images/20899231242_365ab1235e_b.jpg" alt="Permanence Wikipédia" width="60%">
+          </section>
+          <section>
+            <h3>Open-source</h3>
+            <ul>
+              <li>Recette pour créer un coworking participatif</li>
+              <li>Documentation via wiki / drive</li>
+            </ul>
+            <img src="images/wiki-coroutine.jpg" alt="Wiki La Coroutine" width="60%">
+          </section>
+        </section>
+
+        <section>
+          <section>
+          <h2>Merci</h2>
+          <p><a href="http://lacoroutine.org">La Coroutine</a></p>
+          <p>
+            <a href="http://wiki.lacoroutine.org/">Wiki</a>
+            -
+            <a href="https://www.loomio.org/g/uYeam08z/la-coroutine">Loomio</a>
+            -
+            <a href="https://www.flickr.com/photos/61299367@N05/">Photos</a
+          </p>
+          <p><small>Contenu pubilé sous <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></small></p>
+          </section>
+
+          <section data-background="images/patchwork.jpg" data-background-size="80%" data-background-repeat="repeat"></section>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
